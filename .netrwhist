@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='c:/Users/roess/Desktop'
+let g:netrw_dirhist_7='c:/Users/roess/Desktop/onedrive'
+let g:netrw_dirhist_6='c:/Users/roess/Desktop/onedrive/utils'
+let g:netrw_dirhist_5='c:/Users/roess/Desktop/onedrive'
+let g:netrw_dirhist_4='c:\Users\roess\Desktop'
+let g:netrw_dirhist_3='c:/Users/roess/Desktop/onedrive/utils/nvim'
+let g:netrw_dirhist_2='c:/Users/roess/Desktop/onedrive/utils'
+let g:netrw_dirhist_1='c:/Users/roess/Desktop/onedrive'
+let g:netrw_dirhist_0='c:\Users\roess\Desktop'
+let g:netrw_dirhist_9='C:\Users\roess\Desktop\onedrive\utils\nvim'

@@ -1,6 +1,6 @@
 "COLOR THEME
-	"source C:\Users\roess\Desktop\quantum.vim-master\
-	"put theme.vim file in C:\Users\roess\Desktop\onedrive\utils\nvim\share\nvim\runtime\colors
+	"source path\to\file
+	"put theme.vim file in \nvim\share\nvim\runtime\colors
 	":set termguicolors
 	":colorscheme github
 	":set background=light
@@ -77,7 +77,13 @@
 	nmap t :tabnew:term
 	noremap <M-h> :vertical resize -4<CR>
 	noremap <M-l> :vertical resize +4<CR>
-
+	
+	"usee :exe to expand $ENV-VAR to string and then join strings by . operator
+	nmap 1 :exe '!git -c core.sshCommand="ssh -i ' . $SSHPRIVATE . '" pull origin main && git status'<CR>
+	nmap 2 :!git status<CR>:! git add .
+	nmap 3 :!git -c user.name="crbyxwpzfl" -c user.email=no@mail.given commit -m ""<Left>
+	nmap 4 :exe '!git -c core.sshCommand="ssh -i ' . $SSHPRIVATE . '" push origin main'
+	
 "MAUS SUPPORT
 	set mouse=a "mouse = a use mouse as in every other editor mouse = 0 use cmd mouse commands
 

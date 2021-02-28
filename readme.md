@@ -1,4 +1,8 @@
 # personal portable nvim v0.5.0
-setup for cli add path\to\dir to PATH enviornment variable
+#### setup 
+add __DESKTOP__ to user environment variable<br>
+add path\to\nvim\ to __PATH__ enviornment variable<br>
+add %DESKTOP% to __XDG_CONFIG_HOME__ system environment variable (nvim config then is in %DESKTOP%\nvim\init.vim)<br>
 
-# [source from](https://github.com/neovim/neovim)
+
+# [nvim source](https://github.com/neovim/neovim)

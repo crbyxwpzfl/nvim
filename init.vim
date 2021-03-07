@@ -15,6 +15,7 @@
 	set backupdir=$VIM\tmp
 
 "ZEILEN UMBRÜCHE
+	set sidescrolloff=10
 	set sidescroll=1
 	set nowrap
 
@@ -87,6 +88,9 @@
 	"Better tabbing
 	vnoremap < <gv
 	vnoremap > >gv
+
+	nnoremap <M-ScrollWheelUp> <ScrollWheelDown>zl
+	nnoremap <M-ScrollWheelDown> zh
 
 "MAUS SUPPORT
 	set mouse=a "mouse = a use mouse as in every other editor mouse = 0 use cmd mouse commands
@@ -193,3 +197,5 @@
 	set smartindent
 	set autoindent
 	set formatoptions-=cro "Stop newline continution of comment
+	:set autochdir
+	:pwd

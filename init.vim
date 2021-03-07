@@ -84,6 +84,10 @@
 	nmap 3 :!git -c user.name="crbyxwpzfl" -c user.email=60987359+crbyxwpzfl@users.noreply.github.com commit -m ""<Left>
 	nmap 4 :exe '!git -c core.sshCommand="ssh -i ' . $SSHPRIVATE . '" push origin main'
 	
+	"Better tabbing
+	vnoremap < <gv
+	vnoremap > >gv
+
 "MAUS SUPPORT
 	set mouse=a "mouse = a use mouse as in every other editor mouse = 0 use cmd mouse commands
 
@@ -182,3 +186,10 @@
 			endif
 		endif
 	endfunction
+
+"GENREAL SETTINGS
+	set conceallevel=0
+	set smarttab
+	set smartindent
+	set autoindent
+	set formatoptions-=cro "Stop newline continution of comment

@@ -89,9 +89,6 @@
 	vnoremap < <gv
 	vnoremap > >gv
 
-	nnoremap <M-ScrollWheelUp> <ScrollWheelDown>zl
-	nnoremap <M-ScrollWheelDown> zh
-
 "MAUS SUPPORT
 	set mouse=a "mouse = a use mouse as in every other editor mouse = 0 use cmd mouse commands
 

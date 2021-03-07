@@ -1,9 +1,9 @@
 "COLOR THEME
 	"source path\to\file
 	"put theme.vim file in \nvim\share\nvim\runtime\colors
-	":set termguicolors
-	":colorscheme github
-	":set background=light
+	:set termguicolors
+	:colorscheme github
+	:set background=light
 
 "SET DIR
 	set dir=$VIM\tmp
@@ -79,7 +79,7 @@
 	noremap <M-l> :vertical resize +4<CR>
 	
 	"usee :exe to expand $ENV-VAR to string and then join strings by . operator
-	nmap 1 :exe '!git -c core.sshCommand="ssh -i ' . $SSHPRIVATE . '" pull origin main && git status'<CR>
+	nmap 1 :exe '!git -c user.name="crbyxwpzfl" -c user.email=no@mail.given -c core.sshCommand="ssh -i ' . $SSHPRIVATE . '" pull origin main && git status'<CR>
 	nmap 2 :!git status<CR>:!git add .
 	nmap 3 :!git -c user.name="crbyxwpzfl" -c user.email=no@mail.given commit -m ""<Left>
 	nmap 4 :exe '!git -c core.sshCommand="ssh -i ' . $SSHPRIVATE . '" push origin main'

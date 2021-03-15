@@ -83,7 +83,7 @@
 	nmap 1 :exe '!git -c user.name="crbyxwpzfl" -c user.email=no@mail.given -c core.sshCommand="ssh -i ' . $SSHPRIVATE . '" pull origin main && git status'<CR>
 	nmap 2 :!git status<CR>:!git add .
 	nmap 3 :!git -c user.name="crbyxwpzfl" -c user.email=60987359+crbyxwpzfl@users.noreply.github.com commit -m ""<Left>
-	nmap 4 :exe '!git -c core.sshCommand="ssh -i ' . $SSHPRIVATE . '" push origin main'
+	nmap 4 :exe '!git -c core.sshCommand="plink -i ' . $SSHPRIVATE . '" push origin main'
 	
 	"Better tabbing
 	vnoremap < <gv

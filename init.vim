@@ -80,10 +80,8 @@
 	noremap <M-l> :vertical resize +4<CR>
 	
 	"usee :exe to expand $ENV-VAR to string and then join strings by . operator
-	nmap 1 :exe '!git -c user.name="crbyxwpzfl" -c user.email=socials.fl@icloud.com -c core.sshCommand="ssh -i ' . $SSHPRIVATE . '" pull origin main && git status'<CR>
-	nmap 2 :!git status<CR>:!git add .
-	nmap 3 :!git -c user.name="crbyxwpzfl" -c user.email=60987359+crbyxwpzfl@users.noreply.github.com commit -m ""<Left>
-	nmap 4 :exe '!git -c core.sshCommand="plink -i ' . $SSHPRIVATE . '" push origin main'
+	nmap 1 <C-W><C-S><C-W><C-W>:terminal<CR>ipython C:\Users\roess\Desktop\git-cmds.py<CR>
+	tmap <ESC> <C-\><C-n>
 	
 	"Better tabbing
 	vnoremap < <gv

@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='c:\Users\roess\Desktop'
 let g:netrw_dirhist_8='c:/Users/roess/Desktop'
 let g:netrw_dirhist_7='c:\Users\roess\Desktop'
 let g:netrw_dirhist_6='c:/Users/roess/Desktop/FirefoxPortable/Data/profile/chrome'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_3='c:/Users/roess/Desktop/FirefoxPortable'
 let g:netrw_dirhist_2='c:\Users\roess\Desktop'
 let g:netrw_dirhist_1='c:/Users/roess/Desktop/nvim'
 let g:netrw_dirhist_0='c:\Users\roess\Desktop'
-let g:netrw_dirhist_9='c:/Users/roess/Desktop/python'

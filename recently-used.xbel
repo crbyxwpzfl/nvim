@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///C:/Users/roess/Desktop/sample.pdf" added="2021-03-18T10:10:46.226082Z" modified="2021-03-18T10:10:46.226082Z" visited="2021-03-18T10:10:46.226082Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.inkscape.Inkscape" exec="&apos;org.inkscape.Inkscape %u&apos;" modified="2021-03-18T10:10:46.226082Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

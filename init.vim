@@ -80,7 +80,7 @@
 	noremap <M-l> :vertical resize +4<CR>
 	
 	"usee :exe to expand $ENV-VAR to string and then join strings by . operator
-	nmap 1 <C-W><C-S><C-W><C-W>:terminal<CR>ipython C:\Users\roess\Desktop\git-cmds.py<CR>
+	nmap 1 <C-W><C-S><C-W><C-W>:terminal<CR>ipython -c "exec(\"import os\nimport sys\nsys.path.append(os.path.join(os.path.expanduser('~'), 'Desktop', 'gists'))\nimport git\")"<CR>
 	tmap <ESC> <C-\><C-n>
 	
 	"Better tabbing

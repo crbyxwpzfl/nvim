@@ -72,7 +72,7 @@
 	"insert sys clipboard in normal mode with strg+v
 	nmap <C-V> a*
 	nmap s gg:call Reset_Sync()<CR>:w<CR>
-	nmap e :Explore c:\Users\roess\Desktop\
+	nmap e :Explore
 	nmap q :q!
 	nmap # :set invnumber :let &mouse=(empty(&mouse) ? 'a' : '')<CR>
 	nmap t :tabnew:term

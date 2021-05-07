@@ -1,0 +1,3 @@
+[submodule "nvim"]
+	path = nvim
+	url = git@gist.github.com:322ad5225cbffe799a78a37e896197a4.git

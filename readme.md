@@ -4,6 +4,8 @@
 #### for global use of nvim
 append `path\to\nvim\bin` to `PATH` env variable<br>
 change `XDG_CONFIG_HOME` system env variable to value `path\to\` config then is at `\path\to\nvim\init.vim`<br>
+set `MASTERTXT` system env variable to value `path\to\master.txt` required for vim.init cursor sync<br>
+set `ALTTXT` system env variable to value `path\to\alt.txt` required for vim.init cursor sync<br>
 
 #### for git.py integration
 `privates.py` with `gitpypath` var is required<br>
